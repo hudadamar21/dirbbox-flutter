@@ -39,8 +39,8 @@ class MainApp extends StatelessWidget {
         '/home': (context) => HomeScreen(),
         '/profile': (context) => ProfileScreen(),
         '/storage': (context) => StorageScreen(),
-        '/settings': (context) => SettingsScreen(),
-        '/settings/change-password': (context) => ChangePasswordScreen(),
+        '/settings': (context) => const SettingsScreen(),
+        '/settings/change-password': (context) => const ChangePasswordScreen(),
       },
       theme: ThemeData(
         textTheme: GoogleFonts.openSansTextTheme(
